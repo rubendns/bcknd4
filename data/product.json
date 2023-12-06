@@ -38,5 +38,13 @@
 		"price": 122,
 		"stock": 99,
 		"status": "true"
+	},
+	{
+		"id": 5,
+		"title": "lapiz",
+		"description": "azul",
+		"price": 44,
+		"stock": 7,
+		"status": "false"
 	}
 ]

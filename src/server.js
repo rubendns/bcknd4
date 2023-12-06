@@ -4,6 +4,7 @@ import postRouter from "./routes/product.routes.js";
 import { logger } from "./utils/logger.js";
 import { Server } from "socket.io";
 import { __dirname } from "./dirname.js";
+import path from "path";
 import viewsRouter from "./routes/views.routes.js";
 import { ManagerProduct, Product } from "./manager/ManagerProduct.js";
 
@@ -34,7 +35,7 @@ app.use(logger);
 app.use("/api", postRouter);
 app.use("/", viewsRouter);
 
-const manager = new ManagerProduct("../data/product.json");
+const manager = new ManagerProduct(path.join(__dirname, "../data/product.json"));
 
 io.on("connection", (socket) => {
   console.log("Cliente conectado");
