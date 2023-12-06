@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"title": "producto prueba1",
+		"description": "Este es un producto de prueba",
+		"price": 955.99,
+		"stock": 77,
+		"status": true
+	},
+	{
+		"id": 4,
+		"title": "producto prueba 4",
+		"description": "Este es un producto de prueba",
+		"price": 297.22,
+		"stock": 29,
+		"status": true
+	},
+	{
+		"id": 7,
+		"title": "producto prueba 7",
+		"description": "Este es un producto de prueba",
+		"price": 119.29,
+		"stock": 40,
+		"status": true
+	},
+	{
+		"id": 2,
+		"title": "gg",
+		"description": "gg",
+		"price": 0,
+		"stock": 3,
+		"status": "g"
+	},
+	{
+		"id": 3,
+		"title": "vino",
+		"description": "rico",
+		"price": 122,
+		"stock": 99,
+		"status": "true"
+	}
+]
